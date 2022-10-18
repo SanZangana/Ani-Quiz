@@ -2,6 +2,11 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.go-btn {
+    border: solid red 10px;
+    border-radius: 12px;
+    
+}
 :root {
     --hue-neutral: 200;
     --hue-wrong: 0;
