@@ -11,8 +11,14 @@
 
 <body id="pagetwo">
     <main class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quiz.html">Restart</a>
+        </nav>
+        <br><br>
         <!-- question & choices -->
         <section id="question-container" class="hide">
+            <h2 id="question-counter"></h2>
             <div id="question">Question</div>
             <div id="answer-btn" class="btn-grid">
                 <button class="btn">Answer 1</button>
@@ -20,6 +26,7 @@
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
+            <h5 id="user-result"></h5>
         </section>
         <!-- controls -->
         <section class="controls">
