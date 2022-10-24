@@ -73,6 +73,12 @@
 .btn.wrong {
     --hue: var(--hue-wrong);
 }
+.result-true {
+    color: green;
+}
+.result-wrong {
+    color: red;
+}
 .start-btn, .next-btn {
     font-size: 1.5rem;
     font-weight: bold;
