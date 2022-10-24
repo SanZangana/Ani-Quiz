@@ -25,7 +25,6 @@
     background-repeat: no-repeat;   
 }
 #pagetwo {
-    --hue: var(--hue-neutral);
     padding: 0;
     margin: 0;
     display: flex;
@@ -33,13 +32,10 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
-}
-#pagetwo.correct {
-    --hue: var(--hue-correct);
-}
-#pagetwo.wrong {
-    --hue: var(--hue-wrong);
+    background-image: url(../images/griffith.webp);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 .container {
     width: 800px;
