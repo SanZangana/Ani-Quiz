@@ -2,16 +2,38 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#start-txt {
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+p {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#home-txt {
     align-items: center;
-    border: solid 20px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
 }
 
 
 .go-btn {
-    border: solid red 10px;
-    border-radius: 12px;
-    
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid rgb(177, 10, 10);
+    border-radius: 6px;
+    transition: 0.4s;
+    display: inline-flex;
+    margin-top: 10px;
+    margin: 20px;
+    background-color: black;
 }
 :root {
     --hue-neutral: 200;
@@ -19,10 +41,11 @@
     --hue-correct: 145;
 }
 #pageone {
-    background-image: url(../images/griffith.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/griffith.webp);
     background-position: relative;
     background-size: cover;
     background-repeat: no-repeat;   
+    display: flex;
 }
 #pagetwo {
     padding: 0;
