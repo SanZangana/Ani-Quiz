@@ -82,14 +82,14 @@ The live link can be found here - https://sanzangana.github.io/Project2/index.ht
 
 ### Coding
 
-- For this project I used the knowledge & skills that I aquired from the modules.
+- For this project I used the knowledge & skills that I acquired from the modules.
 - I would also like to acknowledge the help from my CI mentor, Tim Nelson!
-- The inspiration for this quiz was taken from the youtube(https://www.youtube.com/watch?v=riDzcEQbX6k) 
+- The inspiration for this quiz was taken from this youtube tutorial (https://www.youtube.com/watch?v=riDzcEQbX6k) 
 
 
 ### Content 
 
-- The icons in the footer were taken from Font Awesome(https://fontawesome.com/)
+- The icons in the footer were taken from Font Awesome (https://fontawesome.com/)
 
 ### Media
 
