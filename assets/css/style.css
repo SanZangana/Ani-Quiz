@@ -1,6 +1,5 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
     font-size: 60px;
@@ -46,6 +45,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;   
     display: flex;
+    height: 100vh;
 }
 #pagetwo {
     padding: 0;
@@ -63,7 +63,7 @@ p {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
@@ -116,24 +116,21 @@ transition: 0.6s;
     justify-content: center;
     align-items: center;
 }
-.hide {
-    display: none;
-}
+
 nav {
     align-items: center;
     text-align: center;
+    margin: 20px auto;
 
 }
-#home-btn {
+#home-btn {   
     text-decoration: none;
-    color: black;
+    color: #fff;
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(177, 10, 10);
     border-radius: 6px;
     transition: 0.4s;
-    display: inline-flex;
-    margin-top: 10px;
-    margin: 20px;
+    background-color: black;
 }
 #home-btn:hover {
     transform: scale(1.1);
@@ -145,11 +142,12 @@ nav {
     border: 2px solid black;
     border-radius: 6px;
     transition: 0.4s;
-    display: inline-flex;
     margin-top: 10px;
 }
 #restart-btn:hover {
     transform: scale(1.1);
 }
-
+.hide {
+    display: none;
+}
 
