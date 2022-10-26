@@ -37,6 +37,9 @@ p {
     margin-top: 50px;
     padding: 50px;
 }
+
+/* Start btn styling  */
+
 .go-btn {
     text-decoration: none;
     color: #fff;
@@ -49,6 +52,9 @@ p {
     margin: 20px;
     background-color: black;
 }
+
+/* Quiz.html Styling */
+
 #pagetwo {
     padding: 0;
     margin: 0;
@@ -61,6 +67,9 @@ p {
     background-size: cover;
     background-repeat: no-repeat;   
 }
+
+/* quiz container and answer buttons styling */
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -94,12 +103,18 @@ p {
 .btn.wrong {
     --hue: var(--hue-wrong);
 }
+
+/* Styling for user results  */
+
 .result-true {
     color: green;
 }
 .result-wrong {
     color: red;
 }
+
+/* start button styling  */
+
 .start-btn {
 transition: 0.6s;
 }
@@ -118,12 +133,17 @@ transition: 0.6s;
     align-items: center;
 }
 
+/* navbar styling  */
+
 nav {
     align-items: center;
     text-align: center;
     margin: 20px auto;
 
 }
+
+/* home and restart btn styling  */
+
 #home-btn {   
     text-decoration: none;
     color: #fff;
