@@ -38,10 +38,12 @@ Due to lack of time, a small detail which would make the quiz a bit more interac
 
 Lighthouse was used to test the perfomance, the screenshots show how the site performs on desktop and mobile.
 
-Desktop 
+#### Desktop 
+
 ![Desktop-Screenshot](/assets/documents/LH-desktop.png)
 
-Mobile
+#### Mobile
+
 ![Mobile-screenshot](/assets/documents/LH-mobile.png)
 
 
@@ -51,13 +53,13 @@ For this project I used the W3C Validator for the HTML & CSS, and for the Javasc
 Down below I have listed screenshots for every test.
 
 - HTML
-  - No errors were returned when passing through the official ![W3C validator](/assets/documents/index-validator.png)
+  - No errors were returned when passing through the official W3C Validator ![W3C validator](/assets/documents/index-validator.png)
 
 - CSS
-  - No errors were found when passing through the official ![(Jigsaw) validator](/assets/documents/css-validator.png)
+  - No errors were found when passing through the official W3C Validator ![(Jigsaw) validator](/assets/documents/css-validator.png)
 
 - Javascript
-  - No errors were found when passing through the ![Jshint](/assets/documents/questions-js.png) 
+  - No errors were found when passing through the Jshint ![Jshint](/assets/documents/questions-js.png) 
 
 ### Unfixed Bugs
 
@@ -88,7 +90,7 @@ The live link can be found here - https://sanzangana.github.io/Project2/index.ht
 
 ### Media
 
-- The photos used on the home and quiz page are from This Open Source site ![Main photo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBerserk%2Fcomments%2F360p4p%2Fits_called_behelit_the_egg_of_the_king_he_who%2F&psig=AOvVaw08q_RzrxwJPM5lj_ieWLZB&ust=1666859742506000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjlvci-_foCFQAAAAAdAAAAABAD)
+- The photos used on the home and quiz page are from This Open Source site (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBerserk%2Fcomments%2F360p4p%2Fits_called_behelit_the_egg_of_the_king_he_who%2F&psig=AOvVaw08q_RzrxwJPM5lj_ieWLZB&ust=1666859742506000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjlvci-_foCFQAAAAAdAAAAABAD)
 
 
 
