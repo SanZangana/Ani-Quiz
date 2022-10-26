@@ -1,5 +1,8 @@
 /* jshint esversion: 11 */
 
+
+// question for the quiz which highlights the correct answer and the wrong answers 
+
 const questions = [
     {
         question: 'Whats the main characters name in Berserk?',
