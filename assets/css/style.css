@@ -1,5 +1,23 @@
+/* General Styles */
+
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+:root {
+    --hue-neutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+/* Index.html Styling  */
+
+#pageone {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/griffith.webp);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    display: flex;
+    height: 100vh;
 }
 h1 {
     font-size: 60px;
@@ -13,15 +31,12 @@ p {
     text-transform: uppercase;
     color: #fff;
 }
-
 #home-txt {
     align-items: center;
     text-align: center;
     margin-top: 50px;
     padding: 50px;
 }
-
-
 .go-btn {
     text-decoration: none;
     color: #fff;
@@ -34,19 +49,6 @@ p {
     margin: 20px;
     background-color: black;
 }
-:root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
-}
-#pageone {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.7)), url(../images/griffith.webp);
-    background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    display: flex;
-    height: 100vh;
-}
 #pagetwo {
     padding: 0;
     margin: 0;
@@ -56,7 +58,6 @@ p {
     justify-content: center;
     align-items: center;
     background-image: url(../images/griffith.webp);
-    background-position: relative;
     background-size: cover;
     background-repeat: no-repeat;   
 }
