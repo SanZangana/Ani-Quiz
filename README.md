@@ -54,12 +54,15 @@ Down below I have listed screenshots for every test.
 
 - HTML
   - No errors were returned when passing through the official W3C Validator ![W3C validator](/assets/documents/index-validator.png)
+  ![W3C validator](/assets/documents/quiz-validator.png)
 
 - CSS
   - No errors were found when passing through the official W3C Validator ![(Jigsaw) validator](/assets/documents/css-validator.png)
 
 - Javascript
   - No errors were found when passing through the Jshint ![Jshint](/assets/documents/questions-js.png) 
+  ![Jshint](/assets/documents/script-js.png) 
+  
 
 ### Unfixed Bugs
 
