@@ -103,7 +103,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - For this project I used the knowledge & skills that I acquired from the modules.
 - I would also like to acknowledge the help from my CI mentor, Tim Nelson!
-- The inspiration for this quiz was taken from this youtube tutorial ![Js Quiz Tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k) 
+- The inspiration for this quiz was taken from this youtube tutorial [Js Quiz Tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k) 
 
 
 ### Content 
