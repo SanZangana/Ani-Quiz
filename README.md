@@ -3,7 +3,7 @@
 A fun quiz for anime/manga lovers! Ani-Quiz is a fun and exciting quiz with mixed questions from some of the most well known animes/mangas.
 The purpose of this quiz is to test the knowledge and skills of the user regarding anime and manga. 
 
-![Responsive screenshot](/assets/documents/amiresp.png)
+![Responsive screenshot](documents//amiresp.png)
 
 ## Features 
 
@@ -13,7 +13,7 @@ The purpose of this quiz is to test the knowledge and skills of the user regardi
 
   - Main page has a text that describes what the user will experience on this website and also a button wih the text "I'm Ready!" with the intention of taking the user to the quiz page as soon as they click that button.
 
-![Main Page](/assets/documents/main-page.png)
+![Main Page](documents//main-page.png)
 
 - __Quiz Page__
 
@@ -21,9 +21,9 @@ The purpose of this quiz is to test the knowledge and skills of the user regardi
   - It also includes a true/false function that pops up everytime the user answers the questions.
   - And lastly the "next" button, which as it's name implies, goes straight to the next question
 
-![Quiz Page](/assets/documents/quiz-page.png)
-![Quiz Page](/assets/documents/quiz-page2.png)
-![Quiz Page](/assets/documents/quiz-page3.png)
+![Quiz Page](documents//quiz-page.png)
+![Quiz Page](documents//quiz-page2.png)
+![Quiz Page](documents//quiz-page3.png)
 
 
 ### Features left to implement
@@ -40,11 +40,11 @@ Lighthouse was used to test the perfomance, the screenshots show how the site pe
 
 #### Desktop 
 
-![Desktop-Screenshot](/assets/documents/LH-desktop.png)
+![Desktop-Screenshot](documents//lh-desktop.png)
 
 #### Mobile
 
-![Mobile-screenshot](/assets/documents/LH-mobile.png)
+![Mobile-screenshot](documents//lh-mobile.png)
 
 
 ### Validator Testing 
@@ -53,30 +53,47 @@ For this project I used the W3C Validator for the HTML & CSS, and for the Javasc
 Down below I have listed screenshots for every test.
 
 - HTML
-  - No errors were returned when passing through the official W3C Validator ![W3C validator](/assets/documents/index-validator.png)
-  ![W3C validator](/assets/documents/quiz-validator.png)
+  - No errors were returned when passing through the official W3C Validator ![W3C validator](documents//index-validator.png)
+  ![W3C validator](documents//quiz-validator.png)
 
 - CSS
-  - No errors were found when passing through the official W3C Validator ![(Jigsaw) validator](/assets/documents/css-validator.png)
+  - No errors were found when passing through the official W3C Validator ![(Jigsaw) validator](documents//css-validator.png)
 
 - Javascript
-  - No errors were found when passing through the Jshint ![Jshint](/assets/documents/questions-js.png) 
-  ![Jshint](/assets/documents/script-js.png) 
+  - No errors were found when passing through the Jshint ![Jshint](documents//questions-js.png) 
+  ![Jshint](documents//script-js.png) 
   
+  ### Other testing
+  To measure how responsive the website was I decided to try it out on:
+  - Google Chrome
+  - Microsoft Edge (screenshot of live site below)
+  ![Microsoft Screenshot](/documents/microsoft-edge.png)
+
+  Different devices was also used to inspect wether or not the website is responsive for smaller devices than pc, such as tablets or mobile devices.
+  ![Screenshot of mobile view](documents//mobileview.png)
 
 ### Unfixed Bugs
 
-
+There are no unfixed bugs that I am aware of
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps followed to deploy are as listed down below: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the "source" section drop-down menu, select the "main branch"
-  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/SanZangana/Ani-Quiz), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://sanzangana.github.io/Project2/index.html
+The live link can be found on [GitHub Pages](https://sanzangana.github.io/Ani-Quiz/)
 
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/SanZangana/Ani-Quiz.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SanZangana/Ani-Quiz)
 
 ## Credits 
 
@@ -89,11 +106,11 @@ The live link can be found here - https://sanzangana.github.io/Project2/index.ht
 
 ### Content 
 
-- The icons in the footer were taken from Font Awesome (https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and quiz page are from This Open Source site (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FBerserk%2Fcomments%2F360p4p%2Fits_called_behelit_the_egg_of_the_king_he_who%2F&psig=AOvVaw08q_RzrxwJPM5lj_ieWLZB&ust=1666859742506000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjlvci-_foCFQAAAAAdAAAAABAD)
+- The photos used on the home and quiz page were from [Reddit](https://www.reddit.com/r/Berserk/comments/360p4p/its_called_behelit_the_egg_of_the_king_he_who/)
 
 
 
