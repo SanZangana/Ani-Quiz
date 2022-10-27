@@ -8,7 +8,7 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 let userResult = document.getElementById('user-result');
 let questionCounter = document.getElementById('question-counter');
-let answerBtns = document.querySelectorAll('.btn');
+let answerBtns = document.querySelectorAll('#answer-btn .btn')
 let shuffledQuestions, shuffledAnswers, currentQuestionIndex;
 
 /* These buttons will commit the same tasks as their name states, so start, restart, go to homepage and next question */ 
@@ -78,6 +78,7 @@ function showQuestion(question) {
 /* hide next button before user has answered current question */
 
 function resetState() { 
+    enableBtns();
     userResult.innerHTML = '';
     nextButton.classList.add('hide');
     document.body.classList.remove('wrong', 'correct');
@@ -91,6 +92,7 @@ red or green depending on if
 the answer is correct or wrong*/
 
 function selectAnswer(e) {
+    disableBtns();
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
     if (correct) {
@@ -120,4 +122,19 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
     delete element.dataset.correct;
     element.classList.remove('correct', 'wrong');
+}
+
+
+// add the 'disabled' class on all butons
+function disableBtns() {
+    answerBtns.forEach(btn => {
+        btn.classList.add("disabled");
+    });
+}
+
+// remove the 'disabled' class on all buttons
+function enableBtns() {
+    answerBtns.forEach(btn => {
+        btn.classList.remove("disabled");
+    });
 }
