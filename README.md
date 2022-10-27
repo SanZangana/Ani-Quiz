@@ -69,7 +69,9 @@ Down below I have listed screenshots for every test.
   - Microsoft Edge (screenshot of live site below)
   ![Microsoft Screenshot](/documents/microsoft-edge.png)
 
-  Different devices was also used to inspect wether or not the website is responsive for smaller devices than pc, such as tablets or mobile devices.
+  Different devices was also used to inspect wether or not the website is responsive for smaller devices than pc, 
+  such as tablets or mobile devices.
+
   ![Screenshot of mobile view](documents//mobileview.png)
 
 ### Unfixed Bugs
