@@ -17,7 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;   
     display: flex;
-    height: 100vh;
+    height: 100vh auto;
 }
 h1 {
     font-size: 60px;
@@ -172,3 +172,19 @@ nav {
     display: none;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    #pageone, #pagetwo{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    h1, p, #home-txt {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
