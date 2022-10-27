@@ -185,6 +185,6 @@ nav {
 
   @media screen and (max-width: 800px) {
     h1, p, #home-txt {
-      width: 100vw; /* The width is 100%, when the viewport is 800px or smaller */
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
   }
