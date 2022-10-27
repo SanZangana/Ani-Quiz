@@ -17,7 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;   
     display: flex;
-    height: 100vh auto;
+    height: 100vh;
 }
 h1 {
     font-size: 60px;
